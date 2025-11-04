@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace HashingPractice
 {
-    public class Problem1_Sol
+    public class Problem2_Sol
     {
-        public void PrintArrayElementFreq(int[] arr)
+        public void PrintArrayMostFreqElement(int[] arr)
         {
             Dictionary<int, int> dict = new Dictionary<int, int>();
             for (int i = 0; i < arr.Length; i++)
@@ -21,18 +21,11 @@ namespace HashingPractice
                     dict[arr[i]] = 1;
             }
 
-            List<string> l = new List<string>();
+            var maxValue = dict.Values.Max();
+            var maxelList = dict.Where(x => x.Value == maxValue).Select(x => x.Key).ToList();
 
 
-            foreach (var ele in dict)
-            {
-                //l.Add(t);
-                l.Add("[" + ele.Key + "," + ele.Value + "]");
-            }
-
-            var res = "[" + String.Join(",", l) + "]";
-
-            Console.WriteLine(res);
+            Console.WriteLine(maxelList.Min());
         }
     }
 }
