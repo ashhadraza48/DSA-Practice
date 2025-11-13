@@ -1,0 +1,14 @@
+Hashing refers to the process of transforming input data (like strings or objects) into a fixed-size numerical value or a fixed-length string, known as a hash 
+code or hash value. This process is typically one-way, meaning it's difficult to reverse the hash to get the original data. 
+
+Hash Functions: These are algorithms that perform the hashing process. They take input data and produce a hash code.
+
+Data STructures:
+	1.Hashtable: A non-generic collection in System.Collections that stores key-value pairs. It uses hashing to efficiently store
+	and retrieve data based on the key's hash code.
+
+	2.HashSet<T>: A generic collection in System.Collections.Generic that stores unique elements. It utilizes hashing to ensure no duplicate
+	values are added and provides efficient set operations (union, intersection, etc.).
+
+	3.Dictionary<TKey, TValue>: A generic collection in System.Collections.Generic that stores key-value pairs, similar to Hashtable but type-safe. 
+	It also relies on hashing for efficient key-based lookups.
