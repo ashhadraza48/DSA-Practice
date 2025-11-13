@@ -1,0 +1,109 @@
+##Selection Sort 
+Selection Sort is a comparison-based sorting algorithm. It sorts an array by repeatedly selecting the smallest (or largest) element from the 
+unsorted portion and swapping it with the first unsorted element. This process continues until the entire array is sorted.
+
+How it works:
+	*Divide the list: The list is conceptually divided into two parts: a sorted sublist (initially empty) at the beginning and an unsorted sublist (initially the entire list) at the end.
+	*Find the minimum: In each iteration, the algorithm finds the smallest element in the unsorted sublist.
+	*Swap: This smallest element is then swapped with the first element of the unsorted sublist. This effectively moves the smallest element to its correct sorted position and expands the sorted sublist by one element.
+	*Repeat: The process is repeated for the remaining unsorted sublist until the entire list is sorted.
+	
+Example:
+	Iteration 1:
+		Smallest element in [64, 25, 12, 22, 11] is 11.
+		Swap 11 with 64. Array becomes [11, 25, 12, 22, 64]. Sorted part: [11].
+	Iteration 2:
+		Smallest element in [25, 12, 22, 64] is 12.
+		Swap 12 with 25. Array becomes [11, 12, 25, 22, 64]. Sorted part: [11, 12].
+	Iteration 3:
+		Smallest element in [25, 22, 64] is 22.
+		Swap 22 with 25. Array becomes [11, 12, 22, 25, 64]. Sorted part: [11, 12, 22].
+	Iteration 4:
+		Smallest element in [25, 64] is 25.
+		Swap 25 with 25. Array remains [11, 12, 22, 25, 64]. Sorted part: [11, 12, 22, 25].
+		
+Time Complexity: O(n^2) for all cases.
+Space Complexity: O(1)
+
+-----------------------------------------------------------------------------------------------------------------
+
+##Bubble Sort
+Bubble sort is a simple sorting algorithm that works by repeatedly comparing adjacent elements and swapping them if they are
+ in the wrong order. This process is repeated until no more swaps are needed, indicating that the list is sorted.
+ 
+How it works:
+	Compare adjacent elements and swap them if the left element is greater than the right element.
+	Repeat the process for the remaining unsorted portion (excluding the last element, which is already sorted). 
+	Repeat the process for the remaining unsorted portion. 
+	
+Time Complexity:
+	O(n^2) for Worst and Average cases
+	O(n) for Best Case(i.e When array is sorted).
+	
+Space Complexity: O(1)
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+##Insertion Sort
+Insertion sort is a simple, in-place comparison-based sorting algorithm. It builds the final sorted array (or list)
+ one item at a time by taking elements from the unsorted part and inserting them into their correct position within the already sorted part.
+ 
+ 
+How it Works:
+	The algorithm divides the array into two parts: a sorted sublist and an unsorted sublist. Initially, the first element is considered sorted. 
+	1.Iteration: The algorithm iterates through the array starting from the second element (index 1).
+	2.Select Key: In each iteration, it picks the current "key" element from the unsorted sublist.
+	3.Comparison and Shifting: It compares the key with the elements in the sorted sublist to its left. If an element in the 
+		sorted part is larger than the key, it shifts that element one position to the right to make space.
+	4.Insertion: This shifting continues until an element smaller than or equal to the key is found, or the beginning of the
+		array is reached. The key is then inserted into the newly created gap.
+	5.Completion: This process repeats until all elements have been moved from the unsorted part to the sorted part. 
+	
+Time Complexity:
+	O(n^2) for Worst and Average cases
+	O(n) for Best Case(i.e When array is sorted).
+	
+Space Complexity: O(1)
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+##MergeSort
+Merge sort is an efficient, stable, comparison-based, divide and conquer sorting algorithm.
+
+How it Works:
+	Merge sort breaks down a list into several sub-lists until each sub-list consists of a single element (which is by definition sorted). Then, 
+	it repeatedly merges these sub-lists to produce new sorted sub-lists until all elements are in a single sorted list.
+	The algorithm has two main steps:
+	1.Divide: The unsorted list is recursively split into two halves until no more splits are possible (lists of size 1).
+	2.Conquer (Merge): The sub-lists are then merged back together in a sorted manner. The merging process compares elements from
+		the two sub-lists and places them into a new combined list in the correct order
+
+Time Complexity:O(nlogn) for all cases.
+	
+Space Complexity: O(n) due to temporary array required while merging.
+
+-----------------------------------------------------------------------------------------------------------------
+
+##QuickSort
+
+Quicksort is an efficient, comparison-based sorting algorithm that employs a divide-and-conquer strategy.
+
+How it Works:
+	1.Choosing a Pivot: An element from the array is selected as the "pivot." Common choices include the first, 
+		last, middle, or a random element. The choice of pivot significantly impacts performance.
+	2.Partitioning: The array is rearranged (partitioned) around the chosen pivot. All elements smaller than the pivot 
+		are moved to its left, and all elements larger than the pivot are moved to its right. After partitioning, the pivot 
+		element is in its final sorted position.
+	3.Recursive Sorting: Quicksort is then recursively applied to the two sub-arrays created by the partitioning 
+		step (the elements to the left of the pivot and the elements to the right of the pivot). This process continues 
+		until a sub-array contains only one element, which is inherently sorted.
+
+
+Time Complexity:
+	O(nlogn) for Best and Average cases
+	O(n2) for worst Case(i.e When piovot always picking smallest or largest element).
+	
+Space Complexity: O(logn)
