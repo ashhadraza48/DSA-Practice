@@ -1,0 +1,35 @@
+##Problem 1:Largest Element
+
+Given an array of integers nums, print the value of the largest element in the array
+
+
+Examples:
+Input: nums = [3, 3, 6, 1]
+
+Output: 6
+
+Explanation: The largest element in array is 6
+
+
+-----------------------------------------------------------------------
+##Problem 2:Second Largest Element
+
+Given an array of integers nums, print the second-largest element in the array. If the second-largest element does not exist, print "Array is having only one Element." .
+
+
+Examples:
+Input: nums = [8, 8, 7, 6, 5]
+
+Output: 7
+
+Explanation:
+
+ the second largest element is 7
+
+Input: nums = [10, 10, 10, 10, 10]
+
+Output: -1
+
+Explanation:
+
+Array is having only one Element.
