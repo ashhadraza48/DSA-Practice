@@ -38,5 +38,47 @@ p5.MoveZeoresToArrayEnd();
 Console.WriteLine();
 
 #endregion Problem5 
+
+#region Problem6
+Problem6 p6 = new Problem6();
+p6.FindIndexOfNumberWrapper();
+Console.WriteLine();
+
+#endregion Problem6 
+
+#region Problem7
+Problem7 p7 = new Problem7();
+p7.CombineTwoSortedArrayWrapper();
+Console.WriteLine();
+
+#endregion Problem7 
+
+#region Problem8
+Problem8 p8 = new Problem8();
+p8.MissingNumberWrapper();
+Console.WriteLine();
+
+#endregion Problem8 
+
+#region Problem9
+Problem9 p9 = new Problem9();
+p9.FindConsecutiveOnesWrapper();
+Console.WriteLine();
+
+#endregion Problem9 
+
+#region Problem10
+Problem10 p10 = new Problem10();
+p10.FindNumberWithSingleOccurrenceWrapper();
+Console.WriteLine();
+
+#endregion Problem10 
+
+#region Problem11
+Problem11 p11 = new Problem11();
+p11.GenerateSubArraysWrapper();
+Console.WriteLine();
+
+#endregion Problem11 
 Console.ReadLine();
 
