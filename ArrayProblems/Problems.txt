@@ -65,3 +65,71 @@ Examples:
 Input: nums = [0, 1, 4, 0, 5, 2]
 
 Output: [1, 4, 5, 2, 0, 0]
+
+-----------------------------------------------------------------------
+##Problem6: Linear Search
+
+Given an array of integers nums and an integer target, find the smallest index (0 based indexing) where the target appears in the array.
+If the target is not found in the array, return -1.
+
+Examples:
+Input: nums = [2, 3, 4, 5, 3], target = 3
+
+Output: 1
+
+
+--------------------------------------------------------------------------
+##Problem7: Union of two sorted arrays
+
+Given two sorted arrays nums1 and nums2, return an array that contains the union of these two arrays. The elements in the union must be in ascending order.
+The union of two arrays is an array where all values are distinct and are present in either the first array, the second array, or both.
+
+Examples:
+Input: nums1 = [1, 2, 3, 4, 5], nums2 = [1, 2, 7]
+
+Output: [1, 2, 3, 4, 5, 7]
+	
+----------------------------------------------------------------------------
+##Problem8: Find missing number
+
+Given an integer array of size n containing distinct values in the range from 0 to n (inclusive), return the only number missing from the array within this range.
+
+Examples:
+Input: nums = [0, 2, 3, 1, 4]
+
+Output: 5
+
+
+-----------------------------------------------------------------------------
+##Problem9: Maximum Consecutive Ones
+
+ 
+Given a binary array nums, return the maximum number of consecutive 1s in the array.
+A binary array is an array that contains only 0s and 1s.
+
+Examples:
+Input: nums = [1, 1, 0, 0, 1, 1, 1, 0]
+
+Output: 3
+
+
+----------------------------------------------------------------------------------
+##Problem10: Single Occurrence Number
+
+Given an array of nums of n integers. Every integer in the array appears twice except one integer. Find the number that appeared once in the array.
+
+Examples:
+Input : nums = [1, 2, 2, 4, 3, 1, 4]
+
+Output : 3
+
+
+--------------------------------------------------------------------------------------
+##Problem11: Generate SubArrays from an Array
+
+Given an array of nums of n integers.Find count of all the subarray of an array.
+
+Examples:
+Input : nums = [1, 2]
+
+Output : 3
