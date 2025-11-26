@@ -80,5 +80,33 @@ p11.GenerateSubArraysWrapper();
 Console.WriteLine();
 
 #endregion Problem11 
+
+#region Problem12
+Problem12 p12 = new Problem12();
+p12.TwoSumWrapper();
+Console.WriteLine();
+
+#endregion Problem12 
+
+#region Problem13
+Problem13 p13 = new Problem13();
+p13.SortArrayOf0s1s2sWrapper();
+Console.WriteLine();
+
+#endregion Problem13 
+
+#region Problem14
+Problem14 p14 = new Problem14();
+p14.MajorityElementWrapper();
+Console.WriteLine();
+
+#endregion Problem14 
+
+#region Problem15
+Problem15 p15 = new Problem15();
+p15.KadaneAlgorithmSubArraySumWrapper();
+Console.WriteLine();
+
+#endregion Problem15 
 Console.ReadLine();
 
