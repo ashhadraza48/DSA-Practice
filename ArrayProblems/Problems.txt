@@ -186,3 +186,130 @@ Examples:
 Input: nums = [2, 3, 5, -2, 7, -4]
 
 Output: 15
+
+
+--------------------------------------------------------------------------------------
+##Problem16: Best time to buy and sell stock
+
+Given an array arr of n integers, where arr[i] represents price of the stock on the ith day. Determine the maximum profit achievable by buying and selling the stock at most once. 
+
+The stock should be purchased before selling it, and both actions cannot occur on the same day.		
+		
+Example:
+Input: arr = [10, 7, 5, 8, 11, 9]
+
+Output: 6
+
+
+--------------------------------------------------------------------------------------
+##Problem17: Rearrange array elements by sign
+
+Given an integer array nums of even length consisting of an equal number of positive and negative integers.Return the answer array in such a way that the given conditions are met:
+Every consecutive pair of integers have opposite signs.
+For all integers with the same sign, the order in which they were present in nums is preserved.
+The rearranged array begins with a positive integer.
+
+Examples:
+Input : nums = [2, 4, 5, -1, -3, -4]
+
+Output : [2, -1, 4, -3, 5, -4]
+
+
+--------------------------------------------------------------------------------------
+##Problem18: Generate all permutations
+
+Given an array arr of n integers,Return total possible number of permutations.
+
+Examples:
+Input : nums = [2, 4, 5]
+
+Output : 6
+
+
+--------------------------------------------------------------------------------------
+##Problem19: Next Permutation
+A permutation of an array of integers is an arrangement of its members into a sequence or linear order.
+
+For example, for arr = [1,2,3], the following are all the permutations of arr:
+
+[1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], [3,2,1].
+
+The next permutation of an array of integers is the next lexicographically greater permutation of its integers.
+
+More formally, if all the permutations of the array are sorted in lexicographical order, then the next permutation of that array is the permutation that follows it in the sorted order.
+
+If such arrangement is not possible (i.e., the array is the last permutation), then rearrange it to the lowest possible order (i.e., sorted in ascending order).
+
+You must rearrange the numbers in-place and use only constant extra memory.
+Example:
+Input: nums = [1,2,3]
+
+Output: [1,3,2]
+
+
+--------------------------------------------------------------------------------------
+##Problem20: Leaders in an Array
+Given an integer array nums, return a list of all the leaders in the array.
+
+A leader in an array is an element whose value is strictly greater than all elements to its right in the given array. The rightmost element is always a leader. The elements in the leader array must appear in the order they appear in the nums array.
+
+Example:
+Input: nums = [1, 2, 5, 3, 1, 2]
+
+Output: [5, 3, 2]
+
+
+--------------------------------------------------------------------------------------
+##Problem21: Longest Consecutive Sequence in an Array
+Given an array nums of n integers.
+
+Return the length of the longest sequence of consecutive integers. The integers in this sequence can appear in any order.
+
+
+Example:
+Input: nums = [100, 4, 200, 1, 3, 2]
+
+Output: 4
+
+
+--------------------------------------------------------------------------------------
+##Problem22: Set Matrix Zeroes
+Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0. You must do it in place.
+
+Example:
+Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
+
+Output: [[1,0,1],[0,0,0],[1,0,1]]
+
+
+--------------------------------------------------------------------------------------
+##Problem23: Rotate matrix by 90 degrees
+Given an N * N 2D integer matrix, rotate the matrix by 90 degrees clockwise.
+
+The rotation must be done in place, meaning the input 2D matrix must be modified directly.
+Example 1
+
+Input: matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+Output: matrix = [[7, 4, 1], [8, 5, 2], [9, 6, 3]]
+
+
+--------------------------------------------------------------------------------------
+##Problem24: Print the matrix in spiral manner
+Given an M * N matrix, print the elements in a clockwise spiral manner.
+
+Return an array with the elements in the order of their appearance when printed in a spiral manner.
+
+Example:
+Input: matrix = [[1, 2, 3], [4 ,5 ,6], [7, 8, 9]]
+
+Output: [1, 2, 3, 6, 9, 8, 7, 4, 5]
+
+
+--------------------------------------------------------------------------------------
+##Problem25: Count subarrays with given sum
+Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
+
+Example:
+Input: nums = [1, 1, 1], k = 2
+
+Output: 2	

@@ -26,5 +26,37 @@ namespace ArrayProblems
 
             Console.WriteLine("Largest Sum of SubArray:" + maxSum);
         }
+
+        //Method to find Element
+        private static void MaxSubArraySumELemnts(int[] arr)
+        {
+            int currSum = arr[0];
+            int maxSum = arr[0];
+            int startIdx = 0;
+            int endIdx = 0;
+
+            for (int i = 1; i < arr.Length; i++)
+            {
+                if (arr[i] > (currSum + arr[i]))
+                {
+                    currSum = arr[i];
+                    startIdx = i;
+                }
+                else
+                {
+                    currSum = currSum + arr[i];
+                }
+
+                if (currSum > maxSum)
+                {
+                    maxSum = currSum;
+                    //startIdx = currIdx;
+                    endIdx = i;
+                }
+            }
+            Console.WriteLine("Largest Array Index is from StartIndex: " + startIdx + " to EndIndex: " + endIdx);
+            Console.WriteLine("Largest Sum of SubArray:" + maxSum);
+        }
+
     }
 }

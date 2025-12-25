@@ -108,5 +108,75 @@ p15.KadaneAlgorithmSubArraySumWrapper();
 Console.WriteLine();
 
 #endregion Problem15 
+
+#region Problem16
+Problem16 p16 = new Problem16();
+p16.MaxProfitSellingStocksWrapper();
+Console.WriteLine();
+
+#endregion Problem16 
+
+#region Problem17
+Problem17 p17 = new Problem17();
+p17.RearrangeArrayBySignWrapper();
+Console.WriteLine();
+
+#endregion Problem17 
+
+#region Problem18
+Problem18 p18 = new Problem18();
+p18.GenerateAllPermutationWrapper();
+Console.WriteLine();
+
+#endregion Problem18 
+
+#region Problem19
+Problem19 p19 = new Problem19();
+p19.FindNextPermutationWrapper();
+Console.WriteLine();
+
+#endregion Problem19 
+
+#region Problem20
+Problem20 p20 = new Problem20();
+p20.LeadersofArrayWrapper();
+Console.WriteLine();
+
+#endregion Problem20 
+
+#region Problem21
+Problem21 p21 = new Problem21();
+p21.LengthOfLongestSeqWrapper();
+Console.WriteLine();
+
+#endregion Problem21 
+
+#region Problem22
+Problem22 p22 = new Problem22();
+p22.SetMatrizZeroesWrapper();
+Console.WriteLine();
+
+#endregion Problem22 
+
+#region Problem23
+Problem23 p23 = new Problem23();
+p23.RotateMatrixBy90Wrapper();
+Console.WriteLine();
+
+#endregion Problem23 
+
+#region Problem24
+Problem24 p24 = new Problem24();
+p24.MatrixSpiralOrderWrapper();
+Console.WriteLine();
+
+#endregion Problem24 
+
+#region Problem25
+Problem25 p25 = new Problem25();
+p25.CountSubArraySumWrapper();
+Console.WriteLine();
+
+#endregion Problem25 
 Console.ReadLine();
 
