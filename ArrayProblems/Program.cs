@@ -178,5 +178,47 @@ p25.CountSubArraySumWrapper();
 Console.WriteLine();
 
 #endregion Problem25 
+
+#region Problem26
+Problem26 p26 = new Problem26();
+p26.PrintPascalTriangleWrapper();
+Console.WriteLine();
+
+#endregion Problem26 
+
+#region Problem27
+Problem27 p27 = new Problem27();
+p27.FindMajorityElementWrapper();
+Console.WriteLine();
+
+#endregion Problem27 
+
+#region Problem28
+Problem28 p28 = new Problem28();
+p28.ThreeSumWrapper();
+Console.WriteLine();
+
+#endregion Problem28 
+
+#region Problem29
+Problem29 p29 = new Problem29();
+p29.FourSumWrapper();
+Console.WriteLine();
+
+#endregion Problem29 
+
+#region Problem30
+Problem30 p30 = new Problem30();
+p30.LargestSubArrayLengthWrapper();
+Console.WriteLine();
+
+#endregion Problem30 
+
+#region Problem31
+Problem31 p31 = new Problem31();
+p31.SubArrayCountWithTargetXORWrapper();
+Console.WriteLine();
+
+#endregion Problem31 
 Console.ReadLine();
 
