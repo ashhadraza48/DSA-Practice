@@ -389,3 +389,92 @@ Input : nums = [4, 2, 2, 6, 4], k = 6
 
 Output : 4	
 	
+
+--------------------------------------------------------------------------------------
+##Problem32: Merge Overlapping Subintervals
+Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals and return an array of the non-overlapping intervals that cover all the intervals in the input.
+
+You can return the intervals in any order.
+
+Example:
+Input: intervals = [[1,5],[3,6],[8,10],[15,18]]
+
+Output: [[1,6],[8,10],[15,18]]
+
+
+--------------------------------------------------------------------------------------
+##Problem33: Merge two sorted arrays without extra space
+Given two integer arrays nums1 and nums2. Both arrays are sorted in non-decreasing order.
+
+Merge both the arrays into a single array sorted in non-decreasing order.
+
+The final sorted array should be stored inside the array nums1 and it should be done in-place.
+
+nums1 has a length of m + n, where the first m elements denote the elements of nums1 and rest are 0s.
+
+nums2 has a length of n.
+
+Example:
+Input: nums1 = [-5, -2, 4, 5], nums2 = [-3, 1, 8]
+
+Output: [-5, -3, -2, 1, 4, 5, 8]
+	
+
+--------------------------------------------------------------------------------------
+##Problem34: Find the repeating and missing number
+Given an integer array nums of size n containing values from [1, n] and each value appears exactly once in the array, except for A, which appears twice and B which is missing.
+
+Return the values A and B, as an array of size 2, where A appears in the 0-th index and B in the 1st index.
+
+Note: You are not allowed to modify the original array.
+
+Example:
+Input: nums = [3, 5, 4, 1, 1]
+
+Output: [1, 2]	
+
+
+--------------------------------------------------------------------------------------
+##Problem35: Count Inversions
+Given an integer array nums. Return the number of inversions in the array.
+
+Two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j.
+
+It indicates how close an array is to being sorted.
+
+A sorted array has an inversion count of 0.
+
+An array sorted in descending order has maximum inversion.
+
+Example:
+Input: nums = [2, 3, 7, 1, 3, 5]
+
+Output: 5	
+
+
+--------------------------------------------------------------------------------------
+##Problem36: Reverse Pairs
+Given an integer array nums. Return the number of reverse pairs in the array.
+
+An index pair (i, j) is called a reverse pair if:
+
+0 <= i < j < nums.length
+
+nums[i] > 2 * nums[j]
+
+Example:
+Input: nums = [6, 4, 1, 2, 7]
+
+Output: 3
+
+
+--------------------------------------------------------------------------------------
+##Problem37: Maximum Product Subarray in an Array
+Given an integer array nums. Find the subarray with the largest product, and return the product of the elements present in that subarray.
+
+A subarray is a contiguous non-empty sequence of elements within an array.
+
+Example:
+Input: nums = [4, 5, 3, 7, 1, 2]
+
+Output: 840	
