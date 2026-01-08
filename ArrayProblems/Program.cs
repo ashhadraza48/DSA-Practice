@@ -220,5 +220,47 @@ p31.SubArrayCountWithTargetXORWrapper();
 Console.WriteLine();
 
 #endregion Problem31 
+
+#region Problem32
+Problem32 p32 = new Problem32();
+p32.MergeOverlappingSubIntervalsWrapper();
+Console.WriteLine();
+
+#endregion Problem32 
+
+#region Problem33
+Problem33 p33 = new Problem33();
+p33.MergeTwoSortedArraysWrapper();
+Console.WriteLine();
+
+#endregion Problem33 
+
+#region Problem34
+Problem34 p34 = new Problem34();
+p34.FindMissingRepeatingNumbersWrapper();
+Console.WriteLine();
+
+#endregion Problem34 
+
+#region Problem35
+Problem35 p35 = new Problem35();
+p35.PrintNumberOfInversionsWrapper();
+Console.WriteLine();
+
+#endregion Problem35 
+
+#region Problem36
+Problem36 p36 = new Problem36();
+p36.ReversePairCountWrapper();
+Console.WriteLine();
+
+#endregion Problem36 
+
+#region Problem37
+Problem37 p37 = new Problem37();
+p37.MaxProductofSubArrayWrapper();
+Console.WriteLine();
+
+#endregion Problem37 
 Console.ReadLine();
 
