@@ -44,4 +44,53 @@ Console.WriteLine();
 
 #endregion Problem6 
 
+#region Problem7
+Problem7 p7 = new Problem7();
+p7.CountOccurrenceWrapper();
+Console.WriteLine();
+
+#endregion Problem7 
+
+#region Problem8
+Problem8 p8 = new Problem8();
+p8.SearchNumberInRotatedArrayWrapper();
+Console.WriteLine();
+
+#endregion Problem8 
+
+#region Problem9
+Problem9 p9 = new Problem9();
+p9.SearchEleInRatatedArrayWithDuplicateWrapper();
+Console.WriteLine();
+
+#endregion Problem9 
+
+#region Problem10
+Problem10 p10 = new Problem10();
+p10.FindMinimumInRotatedArrayWrapper();
+Console.WriteLine();
+
+#endregion Problem10 
+
+#region Problem11
+Problem11 p11 = new Problem11();
+p11.FindKRotationInSortedArrayWrapper();
+Console.WriteLine();
+
+#endregion Problem11 
+
+#region Problem12
+Problem12 p12 = new Problem12();
+p12.FindSingleNonDuplicateInSortedArrayWrapper();
+Console.WriteLine();
+
+#endregion Problem12 
+
+#region Problem13
+Problem13 p13 = new Problem13();
+p13.FindPeakElementWrapper();
+Console.WriteLine();
+
+#endregion Problem13 
+
 Console.Read();

@@ -59,4 +59,77 @@ Input: nums = [5, 7, 7, 8, 8, 10], target = 8
 
 Output: [3, 4]	
 	
-	
+
+-----------------------------------------------------
+#Problem7: Count Occurrences in a Sorted Array
+You are given a sorted array of integers arr and an integer target. Your task is to determine how many times target appears in arr.
+Return the count of occurrences of target in the array.
+
+Example:
+Input: arr = [0, 0, 1, 1, 1, 2, 3], target = 1
+
+Output: 3	
+
+
+-----------------------------------------------------
+#Problem8:Search in rotated sorted array-I
+Given an integer array nums, sorted in ascending order (with distinct values) and a target value k. The array is rotated at some pivot point that is unknown. Find the index at which k is present and if k is not present return -1.
+
+Example:
+Input : nums = [4, 5, 6, 7, 0, 1, 2], k = 0
+
+Output: 4	
+
+
+-----------------------------------------------------
+#Problem9:Search in rotated sorted array-II
+Given an integer array nums, sorted in ascending order (may contain duplicate values) and a target value k. Now the array is rotated at some pivot point unknown to you. Return True if k is present and otherwise, return False.
+
+Example:
+Input : nums = [7, 8, 1, 2, 3, 3, 3, 4, 5, 6], k = 3
+
+Output: True
+
+
+-----------------------------------------------------
+#Problem10:Find minimum in Rotated Sorted Array
+Given an integer array nums of size N, sorted in ascending order with distinct values, and then rotated an unknown number of times (between 1 and N), find the minimum element in the array.
+
+Example:
+Input : nums = [4, 5, 6, 7, 0, 1, 2, 3]
+
+Output: 0 
+
+
+-----------------------------------------------------
+#Problem11:	Find out how many times the array is rotated
+Given an integer array nums of size n, sorted in ascending order with distinct values. The array has been right rotated an unknown number of times, between 0 and n-1 (including). Determine the number of rotations performed on the array.
+
+Example:
+Input : nums = [4, 5, 6, 7, 0, 1, 2, 3]
+
+Output: 4
+
+
+-----------------------------------------------------
+#Problem12:Single element in sorted array
+Given an array nums sorted in non-decreasing order. Every number in the array except one appears twice. Find the single number in the array.
+
+Example:
+Input :nums = [1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 6]
+
+Output:4	
+
+
+-----------------------------------------------------
+#Problem13:Find peak element
+Given an array arr of integers. A peak element is defined as an element greater than both of its neighbors.
+Formally, if arr[i] is the peak element, arr[i - 1] < arr[i] and arr[i + 1] < arr[i].
+Find the index(0-based) of a peak element in the array. If there are multiple peak numbers, return the index of any peak number.
+Note:
+As there can be many peak values, "true" is given as output if the returned index is a peak number, otherwise "false".
+
+Example:
+Input : arr = [1, 2, 3, 4, 5, 6, 7, 8, 5, 1]
+
+Output: 7
