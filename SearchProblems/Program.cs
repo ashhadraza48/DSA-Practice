@@ -93,4 +93,80 @@ Console.WriteLine();
 
 #endregion Problem13 
 
+#region Problem14
+Problem14 p14 = new Problem14();
+p14.FindSqrtOfNumberWrapper();
+Console.WriteLine();
+
+#endregion Problem14 
+
+#region Problem15
+Problem15 p15 = new Problem15();
+p15.FindNthRootOfNumberWrapper();
+Console.WriteLine();
+
+#endregion Problem15 
+
+#region Problem16
+Problem16 p16 = new Problem16();
+p16.MinimumRateToEatBananasWrapper();
+Console.WriteLine();
+
+#endregion Problem16 
+
+#region Problem17
+Problem17 p17 = new Problem17();
+p17.MinimumDaysForMBouquetWrapper();
+Console.WriteLine();
+
+#endregion Problem17 
+
+#region Problem18
+Problem18 p18 = new Problem18();
+p18.SmallestDivisorWrapper();
+Console.WriteLine();
+
+#endregion Problem18 
+
+#region Problem19
+Problem19 p19 = new Problem19();
+p19.FindCapacityToShipPackageWrapper();
+Console.WriteLine();
+
+#endregion Problem19 
+
+#region Problem20
+Problem20 p20 = new Problem20();
+p20.FindKthPositiveWrapper();
+Console.WriteLine();
+
+#endregion Problem20 
+
+#region Problem21
+Problem21 p21 = new Problem21();
+p21.MaxOfMinDistanceBetweenTwoCowWrapper();
+Console.WriteLine();
+
+#endregion Problem21 
+
+#region Problem22
+Problem22 p22 = new Problem22();
+p22.FindMinOfMaxPagesAllocatedWrapper();
+Console.WriteLine();
+
+#endregion Problem22 
+
+#region Problem23
+Problem23 p23 = new Problem23();
+p23.MinSumOfLargestSubArrayWrapper();
+Console.WriteLine();
+
+#endregion Problem23 
+
+#region Problem24
+Problem24 p24 = new Problem24();
+p24.MinTimeToPaintBoardWrapper();
+Console.WriteLine();
+
+#endregion Problem24 
 Console.Read();
