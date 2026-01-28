@@ -1,0 +1,192 @@
+Problem1:Remove Outermost Parentheses
+A valid parentheses string is defined by the following rules:
+It is the empty string "".
+If A is a valid parentheses string, then so is "(" + A + ")".
+If A and B are valid parentheses strings, then A + B is also valid.
+A primitive valid parentheses string is a non-empty valid string that cannot be split into two or more non-empty valid parentheses strings.
+
+Given a valid parentheses string s, consider its primitive decomposition: s = P1 + P2 + ... + Pk, where Pi are primitive valid parentheses strings.
+Return s after removing the outermost parentheses of every primitive string in the primitive decomposition of s.
+
+
+Example:
+Input: s = "((()))"
+
+Output: "(())"
+
+
+----------------------------------------------------------------
+Problem2:Reverse every word in a string
+Given an input string, containing upper-case and lower-case letters, digits, and spaces( ' ' ). A word is defined as a sequence of non-space characters. The words in s are separated by at least one space.
+Return a string with the words in reverse order, concatenated by a single space.
+
+Example:
+Input: s = "welcome to the jungle"
+
+Output: "jungle the to welcome"
+
+
+----------------------------------------------------------------
+Problem3:Largest Odd Number in a String
+Given a string s, representing a large integer, the task is to return the largest-valued odd integer (as a string) that is a substring of the given string s.
+The number returned should not have leading zero's. But the given input string may have leading zero. (If no odd number is found, then return empty string.)
+
+Example:
+Input : s = "5347"
+
+Output : "5347"
+
+
+----------------------------------------------------------------
+Problem4:Longest Common Prefix
+Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string "".
+
+Example:
+Input : str = ["flowers" , "flow" , "fly", "flight" ]
+
+Output : "fl"
+
+
+----------------------------------------------------------------
+Problem5:Isomorphic String
+Given two strings s and t, determine if they are isomorphic. Two strings s and t are isomorphic if the characters in s can be replaced to get t.
+All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.
+
+Example:
+Input : s = "egg" , t = "add"
+
+Output : true	
+
+
+----------------------------------------------------------------
+Problem6:Rotate String
+Given two strings s and goal, return true if and only if s can become goal after some number of shifts on s.
+A shift on s consists of moving the leftmost character of s to the rightmost position.
+For example, if s = "abcde", then it will be "bcdea" after one shift.
+
+Example:
+Input : s = "abcde" , goal = "cdeab"
+
+Output : true
+
+
+----------------------------------------------------------------
+Problem7:Valid anagram
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+Example:
+Input : s = "anagram" , t = "nagaram"
+
+Output : true
+
+
+----------------------------------------------------------------
+Problem8:Sort Characters by Frequency
+You are given a string s. Return the array of unique characters, sorted by highest to lowest occurring characters.
+If two or more characters have same frequency then arrange them in alphabetic order.
+
+Example:
+Input : s = "tree"
+
+Output : ['e', 'r', 't' ]
+
+
+----------------------------------------------------------------
+Problem9: Maximum Nesting Depth of the Parentheses
+A string s is a valid parentheses string (VPS) if it meets the following conditions:
+It only contains digits 0-9, arithmetic operators +, -, *, /, and parentheses (, ).
+The parentheses are balanced and correctly nested.
+Your task is to compute the maximum nesting depth of parentheses in s. The nesting depth is the highest number of parentheses that are open at the same time at any point in the string.
+
+Example:
+Input: s = "(1+(2*3)+((8)/4))+1"
+
+Output: 3
+
+
+----------------------------------------------------------------
+Problem10:Roman to Integer
+Roman numerals are represented by seven different symbols:
+
+I = 1
+V = 5
+X = 10
+L = 50
+C = 100
+D = 500
+M = 1000
+
+
+Roman numerals are typically written from largest to smallest, left to right. However, in specific cases, a smaller numeral placed before a larger one indicates subtraction.
+The following subtractive combinations are valid:
+I before V (5) and X (10) ? 4 and 9
+X before L (50) and C (100) ? 40 and 90
+C before D (500) and M (1000) ? 400 and 900
+Given a Roman numeral, convert it to an integer.
+
+Example:
+Input: s = "III"
+
+Output: 3	
+
+
+----------------------------------------------------------------
+Problem11:String to Integer (atoi)
+Implement the function myAtoi(s) which converts the given string s to a 32-bit signed integer (similar to the C/C++ atoi function).
+
+Steps to Implement:
+First, ignore any leading whitespace characters ' ' until the first non-whitespace character is found.
+Check the next character to determine the sign. If it’s a '-', the number should be negative. If it’s a '+', the number should be positive. If neither is found, assume the number is positive.
+Read the digits and convert them into a number. Stop reading once a non-digit character is encountered or the end of the string is reached. Leading zeros should be ignored during conversion.
+The result should be clamped within the 32-bit signed integer range: [-2147483648, 2147483647]. If the computed number is outside this range, return -2147483648 if the number is less than -2147483648, or return 2147483647 if the number is greater than 2147483647.
+Finally, return the computed number after applying all the above steps.
+
+Example:
+Input: s = " -12345"
+
+Output: -12345	
+
+
+----------------------------------------------------------------
+Problem12:Longest Palindromic Substring
+Given a string s, return the longest palindromic substring in s.
+A palindromic substring is a contiguous sequence of characters within the string that reads the same forward and backward.
+
+Example:
+Input: s = "babad"
+
+Output: "bab"
+
+
+----------------------------------------------------------------
+Problem13:Sum of Beauty of All Substrings
+The beauty of a string is defined as the difference between the frequency of the most frequent character and the least frequent character (excluding characters that do not appear) in that string.
+Given a string s, return the sum of beauty values of all possible substrings of s.
+
+Example:
+Input: s = "xyx"
+
+Output: 1
+
+
+----------------------------------------------------------------
+Problem14:Check if a String is an Isogram
+A string is an isogram if the count of distinct characters equals the length of the original string.
+Given a string s, return true or false whether string is an isogram.
+
+Example:
+Input: s = "abc"
+
+Output: true
+
+
+----------------------------------------------------------------
+Problem15:Convert a Given String to Camel Case
+Given a string s,return string camel case.
+
+Example:
+Input: s = "camelcase"
+
+Output: camelCase
